@@ -1,0 +1,33 @@
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+
+# --- Credenciales y secretos ---
+.env
+credentials/
+*.pem
+service-account*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# --- Datos locales (los datos viven en BigQuery) ---
+parte_2_modelo_bigquery/data/*
+!parte_2_modelo_bigquery/data/.gitkeep
+
+# --- SO / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
